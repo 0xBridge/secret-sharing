@@ -12,9 +12,9 @@ package secretsharing
 import (
 	"errors"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 
-	"github.com/bytemare/secret-sharing/keys"
+	"github.com/0xBridge/secret-sharing/keys"
 )
 
 var (

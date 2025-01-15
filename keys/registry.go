@@ -13,7 +13,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 // PublicKeyShareRegistry regroups the final public information about key shares and participants, enabling a registry

@@ -1,10 +1,10 @@
 # Secure Secret Sharing
-[![secret-sharing](https://github.com/bytemare/secret-sharing/actions/workflows/code-scan.yml/badge.svg)](https://github.com/bytemare/secret-sharing/actions/workflows/code-scan.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/secret-sharing.svg)](https://pkg.go.dev/github.com/bytemare/secret-sharing)
+[![secret-sharing](https://github.com/0xBridge/secret-sharing/actions/workflows/code-scan.yml/badge.svg)](https://github.com/0xBridge/secret-sharing/actions/workflows/code-scan.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/secret-sharing.svg)](https://pkg.go.dev/github.com/0xBridge/secret-sharing)
 [![codecov](https://codecov.io/gh/bytemare/secret-sharing/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/secret-sharing)
 
 ```
-  import "github.com/bytemare/secret-sharing"
+  import "github.com/0xBridge/secret-sharing"
 ```
 
 This package implements Shamir's Secret Sharing extended with Feldman's Verifiable Secret Sharing over elliptic curve groups.
@@ -16,13 +16,13 @@ same key with any subset of at minimum _t_ of these key shares in a _(t,n)_-thre
 Note that the key distribution (sharding) algorithm used in this package is a _trusted dealer_ (i.e. centralised). If
 you need a truly decentralized key generation, you can use the [dkg package](https://github.com/bytemare/dkg) which builds on this package.
 
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/secret-sharing.svg)](https://pkg.go.dev/github.com/bytemare/secret-sharing)
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/secret-sharing.svg)](https://pkg.go.dev/github.com/0xBridge/secret-sharing)
 
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/secret-sharing).
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/0xBridge/secret-sharing).
 
 ## Versioning
 
-[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/secret-sharing/tags).
+[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/0xBridge/secret-sharing/tags).
 
 
 ## Contributing

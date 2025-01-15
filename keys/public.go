@@ -13,7 +13,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 // PublicKeyShare specifies the public key of a participant identified with ID. This can be useful to keep a registry of

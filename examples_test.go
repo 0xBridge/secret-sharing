@@ -11,10 +11,10 @@ package secretsharing_test
 import (
 	"fmt"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 
-	secretsharing "github.com/bytemare/secret-sharing"
-	"github.com/bytemare/secret-sharing/keys"
+	secretsharing "github.com/0xBridge/secret-sharing"
+	"github.com/0xBridge/secret-sharing/keys"
 )
 
 // ExampleShard shows how to split a private key into shares and how to recombine it from a

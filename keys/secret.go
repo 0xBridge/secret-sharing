@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 // KeyShare holds the secret and public key share for a given participant.
